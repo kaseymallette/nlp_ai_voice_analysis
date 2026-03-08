@@ -43,12 +43,12 @@ Raw conversation data is excluded from the public repository (`.gitignore`).
 nlp_ai_voice_analysis/
 ├── README.md
 ├── notebooks/
-│   ├── 01_descriptive_stats.ipynb
-│   ├── 02_sentiment_analysis.ipynb
-│   ├── 03_irony_detection.ipynb
-│   ├── 04_certainty_auditing.ipynb
+│   ├── 01_descriptive_stats.ipynb   
+│   ├── 02_sentiment_analysis.ipynb     # planned
+│   ├── 03_irony_detection.ipynb        # planned
+│   ├── 04_certainty_auditing.ipynb     # planned
 │   └── ...
-├── chats/                            # .gitignore — raw conversation exports
-├── data/                             # generated datasets from analysis
-└── src/                              # later, if refactored
+├── chats/                              # .gitignore — raw conversation exports
+├── data/                               # generated datasets from analysis
+└── src/                                # later, if refactored
 ```
